@@ -1,0 +1,230 @@
+@media only screen and (min-width: 1201px) and (max-width: 3840px) {
+    .sidebar-md {
+        display: none;
+    }
+
+    .page-topbar .navbar-header {
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .sidebar-md {
+        display: none;
+    }
+
+    .page-topbar .navbar-header {
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+    #cartview .card .desktop-card-body {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 92vh;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    .sidebar-lg {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .sidebar-lg {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 576px) {
+    .sidebar-lg {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    /*========= pos css =========*/
+
+    .card-body .search-button {
+        padding: 10px 15px;
+    }
+
+    .card-body .pos-card-input {
+        padding: 0px 12px;
+    }
+
+    /*========= pos css =========*/
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 374px) {
+
+    .subtitle {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .sidebar-lg {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    /*========= pos css =========*/
+
+    .card-body .search-button {
+        padding: 10px 15px;
+    }
+
+    .card-body .pos-card-input {
+        padding: 0px 12px;
+    }
+
+    /*========= pos css =========*/
+}
+
+/* New login form */
+
+/* New login form  start */
+
+@media (max-width:1024px) {
+    .card-box {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* New login form  start */
+@media (max-width:576px) {
+
+    .bg-new {
+        background: conic-gradient(from 45deg, var(--bs-secondary), var(--bs-primary));
+    }
+
+    .offcanvas-body .card-title {
+        font-size: 16px;
+    }
+
+    .theme-label-name {
+        font-size: 14px;
+    }
+
+    .theme-label {
+        padding: 2px 20px;
+        right: -44px;
+    }
+
+    .paln-img {
+        display: none;
+    }
+
+    .card-box {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .pos-header img {
+        width: 125px;
+    }
+}
+
+@media (max-width:992px) {
+
+    .main-content-rtl {
+        margin-right: 0rem !important;
+    }
+
+    .pos-menu {
+        overflow: auto !important;
+        overflow-x: hidden !important;
+        height: 63vh !important;
+    }
+
+}
+
+@media (max-width:1140px) {
+    .righ-side {
+        width: 33%;
+    }
+}
+
+@media (max-width:1440px) {
+    .pos-menu {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 65vh;
+        padding: 0px 10px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1440px) and (min-width: 768px) {
+
+    .login-forgot-padding,
+    .register-padding {
+        padding: 20px 200px;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 1200px) {
+    .login-forgot-padding {
+        padding: 20px 140px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 576px) {
+    .login-forgot-padding {
+        padding: 10px 60px;
+    }
+
+    .register-padding {
+        padding: 10px 60px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .login-left-content .logo-img {
+        width: 270px;
+    }
+}
+
+
+@media only screen and (max-width: 576px) and (min-width: 375px) {
+
+    .login-forgot-padding {
+        padding: 10px 40px;
+    }
+
+    .register-padding {
+        padding: 10px 40px;
+    }
+}
+
+@media only screen and (max-width: 374px) and (min-width: 200px) {
+    .login-forgot-padding {
+        padding: 10px 30px;
+    }
+
+    .register-padding {
+        padding: 10px 30px;
+    }
+}

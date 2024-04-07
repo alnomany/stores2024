@@ -1,0 +1,1 @@
+buyer : name , license : key , host : url
