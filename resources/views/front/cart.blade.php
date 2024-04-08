@@ -11,7 +11,7 @@
             </h2>
 
             <ol class="breadcrumb justify-content-center">
-
+e
                 <li class="breadcrumb-item"><a class="text-dark"
                         href="{{ URL::to($storeinfo->slug . '/') }}">{{ trans('labels.home') }}</a>
                 </li>
