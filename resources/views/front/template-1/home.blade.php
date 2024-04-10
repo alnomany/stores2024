@@ -72,7 +72,7 @@
                     <div class="card-header cat-dispaly bg-transparent px-0">
                         <div class=" d-inline-block">
                             <h4 class="{{ session()->get('direction') == 2 ? 'text-right' : '' }} m-0 ">
-                                {{ trans('labels.category') }}</h4>
+                                {{ trans('labels.category') }} d</h4>
                         </div>
                     </div>
                     <div
